@@ -1,0 +1,23 @@
+THIS IS A GUIDE YOU CAN FOLLOW TO INPUT A JSON DATA IN THIS API 
+
+
+this is a json data format to input for registering and login a user:
+    "username": "wewewe",
+    "password": "1223"
+
+for depositing a amount here's the format:
+    "account_id": 1,
+    "transaction_type": "Deposit",
+    "amount": 100
+
+for withdrawing a amount here's the format:
+    "account_id": 1,
+    "transaction_type": "Withdraw",
+    "amount": 100
+
+for transfering a amount here's the format:
+    "account_id": 1,
+    "transaction_type": "Transfer",
+    "amount": 100,
+    "recipient_account_id": 2
+
